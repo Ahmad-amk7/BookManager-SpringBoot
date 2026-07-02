@@ -40,12 +40,14 @@ public class MDHash {
 		
 		try 
 		{
-			MessageDigest mDigest = MessageDigest.getInstance("MD5");
-			mDigest.update(builder.toString().getBytes());
-			byte[] mdByte = mDigest.digest(builder.toString().getBytes());
-			for (int i = 0; i < mdByte.length; i++) {
-				finaBuilder.append(Integer.toHexString(mdByte[i] & 0xff));
-			}
+			MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            byte[] hash = digest.digest(builder.toString().getBytes(StandardCharsets.UTF_8));
+
+            StringBuilder finalBuilder = new StringBuilder();
+           for (byte b : hash) {
+             finalBuilder.append(String.format("%02x", b));
+           }
+
 			
 		} 
 		catch (Exception e) {
