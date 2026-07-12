@@ -22,8 +22,7 @@ Der Klassenname wird in einem zukünftigen Update angepasst.
 Diese Änderung verbessert die Sicherheit der Anwendung und entspricht modernen kryptografischen Best Practices.
 
 👤 Author
-This project was developed by Ahmad Khaddam, a practical software developer with hands‑on experience across multiple technologies, including:
-Dieses Projekt wurde von Ahmad Khaddam entwickelt – als persönliches Software‑Projekt mit dem Ziel, eine moderne, sichere und saubere Spring‑Boot‑Anwendung mit einer Glassmorphism‑Oberfläche zu erstellen.
+This project was developed by Ahmad Khaddam
 
 
 Java & Spring Boot
