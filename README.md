@@ -24,19 +24,3 @@ Diese Änderung verbessert die Sicherheit der Anwendung und entspricht modernen 
 👤 Author
 This project was developed by Ahmad Khaddam
 
-
-Java & Spring Boot
-
-Jakarta EE
-
-ASP.NET Core
-
-Game development (Unity / Unreal – hobby & exploration)
-
-Microcontroller programming (STM32, Arduino, ESP32)
-
-Hardware–software integration
-
-General IT troubleshooting and workflow optimization
-
-Focused on building clean, secure, and modern applications with attention to detail and real‑world practicality. Passionate about learning, experimenting, and improving systems in both software and embedded environments.
